@@ -22,7 +22,7 @@ main{
 .header-1{
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     transition: 0.6s;
     height: auto;
@@ -34,7 +34,6 @@ main{
     font-size: 25px;
 }
 .logo{
-    margin: 10px;
     float: left;
     display: flex;
     justify-content: center;
