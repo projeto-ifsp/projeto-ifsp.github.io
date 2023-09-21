@@ -163,7 +163,6 @@ header.sticky .busca img{
 }
 .pesquisa{
     justify-content: center;
-    width: 37%;
     float: left;
     text-align: center;
     display: flex;
