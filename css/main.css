@@ -2,14 +2,13 @@ body{
     height: 1200px;
     width: 100%;
     margin: 0;
-    display: flex;
     font-family: Optima, Segoe, Segoe UI, Candara, Calibri, Arial, sans-serif;
 }
 .menu-principal{
     width: 100%;
     top: 0;
     left: 0;
-    position: fixed;
+    position: sticky;
     transition: 0.6s;
     z-index: 100000;
     margin: 0 auto;
@@ -39,6 +38,11 @@ main{
     justify-content: center;
     align-items: center;
 }
+.logo img:hover{
+    width: 220px;
+    height: 220px;
+    transition: 0.6s;
+}
 .logo img{
     width: 200px;
     height: 200px;
@@ -57,6 +61,7 @@ main{
 }
 .atalhos ul li a:hover{
     color: #00BF63;
+    font-size: 24px;
 }
 .atalhos ul li a{
     color: black;
@@ -145,9 +150,14 @@ header.sticky .logo img{
     width: 120px;
     height: 120px;
 }
+header.sticky .logo img:hover{
+    width: 140px;
+    height: 140px;
+}
 header.sticky .busca input{
     background-color: #0B5360;
     transition: 0.6s;
+    color: white;
 }
 header.sticky .busca{
     border-color: white;
@@ -191,11 +201,14 @@ header.sticky .busca img{
     transition: 0.6s;
     color: black;
 }
-.principal{
-    margin-top: 5%;
-    position: relative;
-}
 .banner1 img{
     max-width: 100%;
     max-height: 100%;
+}
+.guiasaude{
+    color:dimgrey;
+    margin: 60px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
 }
