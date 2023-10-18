@@ -202,13 +202,44 @@ header.sticky .busca img{
     color: black;
 }
 .banner1 img{
-    max-width: 100%;
-    max-height: 100%;
+    width: 100%;
+    height: auto;
 }
-.guiasaude{
+.titulo-cinza{
     color:dimgrey;
-    margin: 60px;
+    margin-top: 60px;
     text-align: center;
     font-weight: bold;
-    font-size: 40px;
+    font-size: 50px;
+}
+.guiasaude{
+    text-align: center;
+    color: dimgray;
+    display: grid;
+}
+.botao1{
+    transition: 0.6s;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 30px;
+    cursor: pointer;
+    background-color: #00BF63;
+}
+.botao1:hover{
+    transition: 0.6s;
+    background-color: #018344;
+}
+.titulo-preto{
+    color:dimgray;
+    text-align: left;
+    font-weight: bold;
+    font-size: 30px;
+}
+.posts{
+    margin: 40px;
 }
