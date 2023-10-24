@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./css/main.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+    <title>Sanitas - Exercícios e Saúde</title>
+</head>
+<body class="quemsomos">
+    <header class="menu-principal">
+        <main>
+            <div class="header-1">
+                <div class="logo">
+                    <a href="">
+                        <img src="./midia/LogoSanitas2.png"/>
+                    </a>
+                </div>
+                <div class="atalhos">
+                    <ul>
+                        <li>
+                            <a href="posts.html">
+                                <p class="texto1">
+                                    Posts
+                                </p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="videos.html">
+                                <p class="texto2">
+                                    Vídeos
+                                </p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="saude.html">
+                                <p class="texto3">
+                                    Saúde
+                                </p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="quemsomos.html">
+                                <p class="texto1-sel">
+                                    Sobre nós
+                                </p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </main>
+    </header>
+    <div class="texto-quemsomos">
+        <div class="ifsp-logo">
+            <img src="./midia/ifsp.png">
+        </div>
+        <div class="texto1-qs">
+            Somos uma equipe que une nossa paixão pela tecnologia e o objetivo de conscientizar as pessoas sobre como cuidar da saúde de maneira correta. 
+        </div>
+        </div>
+    </div>
+    <div class="texto2-qs">
+        <p>
+            Acreditamos que a saúde é um ativo valioso, e queremos ajudar profissionais da área da saúde a compartilhar seu conhecimento através do nosso website.
+        </p>
+        <p>
+            Estamos comprometidos em trazer-lhe as últimas descobertas, dicas e recursos relacionados à saúde para ajudar a melhorar sua qualidade de vida.
+        </p>
+    </div>
+    <script type="text/javascript">
+        window.addEventListener("scroll", function(){
+            var header  = document.querySelector("header");
+            header.classList.toggle("sticky", window.scrollY > 0);
+            })
+    </script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script type="text/javascript" src="./js/main.js"></script>
+</body>
+</html>
