@@ -39,13 +39,13 @@ main{
     align-items: center;
 }
 .logo img:hover{
-    width: 220px;
-    height: 220px;
+    width: 125px;
+    height: 125px;
     transition: 0.6s;
 }
 .logo img{
-    width: 200px;
-    height: 200px;
+    width: 120px;
+    height: 120px;
     transition: 0.6s;
 }
 .atalhos ul{
@@ -56,18 +56,17 @@ main{
 }
 .atalhos ul li{
     display: inline-block;
-    font-size: 23px;
+    font-size: inherit;
     position: relative;
 }
 .atalhos ul li a:hover{
     color: #00BF63;
-    font-size: 24px;
 }
 .atalhos ul li a{
     color: black;
     text-decoration: none;
     position: relative;
-    font-size: 23px;
+    font-size: inherit;
     transition: 0.6s;
 }
 .atalhos{
@@ -146,13 +145,28 @@ header.sticky .texto3 {
     transition: border-color 0.6s ease-out;
     border-color: white;
 }
+header.sticky .texto2-sel { 
+    -webkit-transition: border-color 0.6s ease-out;
+    -moz-transition: border-color 0.6s ease-out;
+    -o-transition: border-color 0.6s ease-out;
+    transition: border-color 0.6s ease-out;
+    border-color: white;
+}
+header.sticky .texto3-sel { 
+    -webkit-transition: border-color 0.6s ease-out;
+    -moz-transition: border-color 0.6s ease-out;
+    -o-transition: border-color 0.6s ease-out;
+    transition: border-color 0.6s ease-out;
+    border-color: white;
+}
+
 header.sticky .logo img{
-    width: 120px;
-    height: 120px;
+    width: 100px;
+    height: 100px;
 }
 header.sticky .logo img:hover{
-    width: 140px;
-    height: 140px;
+    width: 110px;
+    height: 110px;
 }
 header.sticky .busca input{
     background-color: #0B5360;
@@ -191,7 +205,7 @@ header.sticky .busca img{
 .busca input{
     font-family: Optima, Segoe, Segoe UI, Candara, Calibri, Arial, sans-serif;
     transition: 0.6s;
-    font-size: 20px;
+    font-size: inherit;
     border: 0;
     outline: 0;
     padding: 4px;
@@ -242,4 +256,67 @@ header.sticky .busca img{
 }
 .posts{
     margin: 40px;
+}
+.ifsp-logo img{
+    width: 100%;
+    height: fit-content;
+}
+.ifsp-logo{
+    display: flex;
+}
+.texto-quemsomos{
+    display: flex;
+    margin: 30px;
+    text-align: left;
+}
+.texto1-qs{
+    font-size: 30px;
+}
+.texto2-qs{
+    font-size: 25px;
+    margin: 2%;
+}
+.texto1-sel{
+    position: relative;
+    overflow: visible;
+    visibility: inherit;
+    text-align: center;
+    margin: 0;
+    padding-inline: 20px;
+    color: #00BF63;
+}
+.texto3-sel{
+    -webkit-transition: border-color 0.6s ease-out;
+    -moz-transition: border-color 0.6s ease-out;
+    -o-transition: border-color 0.6s ease-out;
+    transition: border-color 0.6s ease-out;
+    position: relative;
+    overflow: visible;
+    visibility: inherit;
+    text-align: center;
+    border-right-color: black;
+    border-right-width: 1px;
+    border-right-style: solid;
+    margin: 0;
+    padding-inline: 20px;
+    color: #00BF63;
+}
+.texto2-sel{
+    -webkit-transition: border-color 0.6s ease-out;
+    -moz-transition: border-color 0.6s ease-out;
+    -o-transition: border-color 0.6s ease-out;
+    transition: border-color 0.6s ease-out;
+    position: relative;
+    overflow: visible;
+    visibility: inherit;
+    text-align: center;
+    border-left-color: black;
+    border-left-width: 1px;
+    border-left-style: solid;
+    border-right-color: black;
+    border-right-width: 1px;
+    border-right-style: solid;
+    margin: 0;
+    padding-inline: 20px;
+    color: #00BF63;
 }
