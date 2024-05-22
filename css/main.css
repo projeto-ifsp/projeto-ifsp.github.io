@@ -324,9 +324,11 @@ header.sticky ::placeholder{
     align-items: center;
 }
 
-video{
-    max-width: 70vw;
+iframe{
+    width: 128vh;
+    height: 72vh;
     margin-top: 5vh;
+    border: 0;
 }
 
 .calculo-imc{
