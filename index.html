@@ -1,42 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./midia/LogoSanitas.png" type="image/x-icon">
     <link rel="stylesheet" type="text/css" href="./css/main.css">
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
-    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
-    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
     <title>Sanitas - Exercícios e Saúde</title>
 </head>
+
 <body>
     <header class="menu-principal">
         <main>
             <div class="header-1">
                 <div class="logo">
                     <a href="index.html">
-                        <img src="./midia/LogoSanitas2.png"/>
+                        <img src="./midia/LogoSanitas.png" />
                     </a>
                 </div>
                 <div class="atalhos">
                     <ul>
                         <li>
-                            <a href="posts.html">
+                            <a href="paginas/posts.html">
                                 <p class="texto1">
                                     Posts
                                 </p>
                             </a>
                         </li>
                         <li>
-                            <a href="saude.html">
+                            <a href="paginas/saude.html">
                                 <p class="texto2">
                                     Saúde
                                 </p>
                             </a>
                         </li>
                         <li>
-                            <a href="quemsomos.html">
+                            <a href="paginas/dietas.html">
+                                <p class="texto3">
+                                    Dietas
+                                </p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="paginas/exercicios.html">
+                                <p class="texto3">
+                                    Exercícios
+                                </p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="paginas/sobre.html">
                                 <p class="texto1">
                                     Sobre nós
                                 </p>
@@ -47,86 +62,107 @@
             </div>
         </main>
     </header>
-    <div class="banner1">
-        <div>
-            <picture>
-                <source type="image/webp" srcset="./midia/Banner-Sanitas.webp">
-                <img src="./midia/Banner Sanitas.png">
-            </picture>
-        </div>
-    </div>
     <div class="guiasaude">
         <div class="titulo-cinza">
-            Guia de Saúde
+            Cuide da sua saúde
         </div>
         Calcule seu IMC, dietas personalizadas <br> e muitas outras opções!
-        <a href="saude.html">
-            <button class="botao1">
-                Ir para Guia de Saúde
-            </button>
-        </a>
+        <div class="center">
+            <a href="./paginas/saude.html" class="botao">
+                <button class="botao1">
+                    Ir para Guia de Saúde
+                </button>
+            </a>
+        </div>
     </div>
     <div class="posts">
         <div class="titulo-posts">
             Posts Recentes
         </div>
         <div class="container">
-             <div class="blog-artigos"> 
-                <ul> 
+            <div class="blog-artigos">
+                <ul>
                     <li class="grid-1-3">
                         <img class="assuntos-blog" src="./midia/post1.png" alt="post1">
-                        <a class="titulo-link" href="https://www.tumblr.com/projeto-sanitas/732116028208889856/surpreendentemente-saud%C3%A1veis-alimentos-que-n%C3%A3o?source=share&ref=projeto-sanitas" target="_blank">
-                            <br>Alimentos que Não Parecem, mas Fazem Super Bem Para a Saúde
+                        <a class="titulo-link"
+                            href="https://www.tumblr.com/projeto-sanitas/732116028208889856/surpreendentemente-saud%C3%A1veis-alimentos-que-n%C3%A3o?source=share&ref=projeto-sanitas"
+                            target="_blank">
+                            <br>Alimentos que não parecem, mas fazem super bem para a saúde
                         </a>
                         <p>
-                            Neste post, vamos destacar alguns alimentos que podem não parecer saudáveis à primeira vista, mas são, na verdade, excelentes escolhas para uma dieta equilibrada.
-                        <button class="botao-ler" type="button">
-                            <a href="https://www.tumblr.com/projeto-sanitas/732116028208889856/surpreendentemente-saud%C3%A1veis-alimentos-que-n%C3%A3o?source=share&ref=projeto-sanitas" target="_blank">
-                                Continuar Lendo
+                            Neste post, vamos destacar alguns alimentos que podem não parecer saudáveis à primeira
+                            vista, mas são, na verdade, excelentes escolhas para uma dieta equilibrada.
+                        <div class="center">
+                            <a class="botao"
+                                href="https://www.tumblr.com/projeto-sanitas/732116028208889856/surpreendentemente-saud%C3%A1veis-alimentos-que-n%C3%A3o?source=share&ref=projeto-sanitas"
+                                target="_blank">
+                                <button class="botao1" type="button">
+                                    Continuar Lendo
+                                </button>
                             </a>
-                        </button>
-                    </li> 
+                        </div>
+                    </li>
                     <li class="grid-1-3">
                         <img class="assuntos-blog" src="./midia/post2.png" alt="post2">
-                        <a class="titulo-link" href="https://www.tumblr.com/projeto-sanitas/732115712690274304/curiosidades-que-far%C3%A3o-voc%C3%AA-repensar-sua-rotina?source=share&ref=projeto-sanitas" target="_blank">
-                            <br> Curiosidades que Farão Você Repensar sua Rotina
-                        </a> 
+                        <a class="titulo-link"
+                            href="https://www.tumblr.com/projeto-sanitas/732115712690274304/curiosidades-que-far%C3%A3o-voc%C3%AA-repensar-sua-rotina?source=share&ref=projeto-sanitas"
+                            target="_blank">
+                            <br> Curiosidades que farão você repensar sua rotina
+                        </a>
                         <p>
-                            Neste post, vamos explorar algumas curiosidades que o farão repensar sua abordagem à saúde e bem-estar.
-                        </p> 
-                        <button class="botao-ler" type="button">
-                            <a href="https://www.tumblr.com/projeto-sanitas/732115712690274304/curiosidades-que-far%C3%A3o-voc%C3%AA-repensar-sua-rotina?source=share&ref=projeto-sanitas" target="_blank">
-                                Continuar Lendo
+                            Neste post, vamos explorar algumas curiosidades que o farão repensar sua abordagem à saúde e
+                            bem-estar.
+                        </p>
+                        <div class="center">
+                            <a class="botao"
+                                href="https://www.tumblr.com/projeto-sanitas/732115712690274304/curiosidades-que-far%C3%A3o-voc%C3%AA-repensar-sua-rotina?source=share&ref=projeto-sanitas"
+                                target="_blank">
+                                <button class="botao1" type="button">
+                                    Continuar Lendo
+                                </button>
                             </a>
-                        </button> 
-                    </li> 
+                        </div>
+                    </li>
                     <li class="grid-1-3">
                         <img class="assuntos-blog" src="./midia/post3.png" alt="post3">
-                        <a class="titulo-link" href="https://www.tumblr.com/projeto-sanitas/732115445195341824/o-efeito-terap%C3%AAutico-da-m%C3%BAsica?source=share&ref=projeto-sanitas" target="_blank">
-                            <br>O Efeito Terapêutico da Música
-                        </a> 
+                        <a class="titulo-link"
+                            href="https://www.tumblr.com/projeto-sanitas/732115445195341824/o-efeito-terap%C3%AAutico-da-m%C3%BAsica?source=share&ref=projeto-sanitas"
+                            target="_blank">
+                            <br>O efeito terapêutico da música
+                        </a>
                         <p>
-                            Neste post, vamos explorar um fato fascinante sobre saúde: o efeito terapêutico da música e como ela pode impactar positivamente nosso bem-estar.
-                        </p> 
-                        <button class="botao-ler" type="button">
-                            <a href="https://www.tumblr.com/projeto-sanitas/732115445195341824/o-efeito-terap%C3%AAutico-da-m%C3%BAsica?source=share&ref=projeto-sanitas" target="_blank">
-                                Continuar Lendo
+                            Neste post, vamos explorar um fato fascinante sobre saúde: o efeito terapêutico da música e
+                            como ela pode impactar positivamente nosso bem-estar.
+                        </p>
+                        <div class="center">
+                            <a class="botao" target="_blank"
+                                href="https://www.tumblr.com/projeto-sanitas/732115445195341824/o-efeito-terap%C3%AAutico-da-m%C3%BAsica?source=share&ref=projeto-sanitas">
+                                <button class="botao1" type="button">
+                                    Continuar Lendo
+                                </button>
                             </a>
-                        </button> 
+                        </div>
                     </li>
-                 </ul> 
-                </div> 
+                </ul>
             </div>
+        </div>
+        <div class="center">
+            <a class="icon" href="./paginas/posts.html">
+                <i class="fa-solid fa-angle-down fa-2xl" style="color: white" aria-hidden="true"></i>
+            </a>
+        </div>
     </div>
     <script type="text/javascript">
-        window.addEventListener("scroll", function(){
-            var header  = document.querySelector("header");
+        window.addEventListener("scroll", function () {
+            var header = document.querySelector("header");
             header.classList.toggle("sticky", window.scrollY > 0);
-            })
+        })
     </script>
     <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script type="text/javascript" src="./js/main.js"></script>
+    <script src="https://kit.fontawesome.com/5b22eee553.js" crossorigin="anonymous"></script>
 </body>
+
 </html>
