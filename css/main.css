@@ -1,8 +1,10 @@
 body{
-    height: 1200px;
+    height: 100%;
     width: 100%;
     margin: 0;
-    font-family: Optima, Segoe, Segoe UI, Candara, Calibri, Arial, sans-serif;
+    font-family: Poppins;
+    background-color: #0f2236;
+    margin-bottom: 2vh;
 }
 .menu-principal{
     width: 100%;
@@ -12,7 +14,7 @@ body{
     transition: 0.6s;
     z-index: 100000;
     margin: 0 auto;
-    background-color: white;
+    background-color: #0b1a29fb;
 }
 main{
     position: relative;
@@ -32,22 +34,37 @@ main{
     width: 50%;
     font-size: 25px;
 }
+
+.botao{
+    width: fit-content;
+    height: fit-content;
+    margin: 30px;
+}
+
+.center{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
 .logo{
     float: left;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: 10%;
 }
 .logo img:hover{
-    width: 125px;
-    height: 125px;
+    width: 14vh;
+    height: 14vh;
     transition: 0.6s;
 }
 .logo img{
-    width: 120px;
-    height: 120px;
+    width: 12vh;
+    height: 12vh;
     transition: 0.6s;
 }
+
 .atalhos ul{
     display: flex;
     justify-content: center;
@@ -63,7 +80,7 @@ main{
     color: #00BF63;
 }
 .atalhos ul li a{
-    color: black;
+    color: white;
     text-decoration: none;
     position: relative;
     font-size: inherit;
@@ -74,7 +91,7 @@ main{
     justify-content: center;
     align-items: center;
     display: flex;
-    width: 37%;
+    margin-left: 25%;
 }
 .col-100{
     width: 100%;
@@ -88,6 +105,7 @@ main{
     text-align: center;
     margin: 0;
     padding-inline: 20px;
+    font-size: 1.2rem;
 }
 .texto2{
     -webkit-transition: border-color 0.6s ease-out;
@@ -98,14 +116,15 @@ main{
     overflow: visible;
     visibility: inherit;
     text-align: center;
-    border-left-color: black;
+    border-left-color: white;
     border-left-width: 1px;
     border-left-style: solid;
-    border-right-color: black;
+    border-right-color: white;
     border-right-width: 1px;
     border-right-style: solid;
     margin: 0;
     padding-inline: 20px;
+    font-size: 1.2rem;
 }
 .texto3{
     -webkit-transition: border-color 0.6s ease-out;
@@ -116,101 +135,46 @@ main{
     overflow: visible;
     visibility: inherit;
     text-align: center;
-    border-right-color: black;
+    border-right-color: white;
     border-right-width: 1px;
     border-right-style: solid;
     margin: 0;
     padding-inline: 20px;
+    font-size: 1.2rem;
 }
 header.sticky{
     height: auto;
-    background: #0B5360;
     padding-top: 3px;
 }
-header.sticky ul li a
-{
-    color: white;
-}
-header.sticky .texto2 { 
-    -webkit-transition: border-color 0.6s ease-out;
-    -moz-transition: border-color 0.6s ease-out;
-    -o-transition: border-color 0.6s ease-out;
-    transition: border-color 0.6s ease-out;
-    border-color: white;
-}
-header.sticky .texto3 { 
-    -webkit-transition: border-color 0.6s ease-out;
-    -moz-transition: border-color 0.6s ease-out;
-    -o-transition: border-color 0.6s ease-out;
-    transition: border-color 0.6s ease-out;
-    border-color: white;
-}
-header.sticky .texto2-sel { 
-    -webkit-transition: border-color 0.6s ease-out;
-    -moz-transition: border-color 0.6s ease-out;
-    -o-transition: border-color 0.6s ease-out;
-    transition: border-color 0.6s ease-out;
-    border-color: white;
-}
-header.sticky .texto3-sel { 
-    -webkit-transition: border-color 0.6s ease-out;
-    -moz-transition: border-color 0.6s ease-out;
-    -o-transition: border-color 0.6s ease-out;
-    transition: border-color 0.6s ease-out;
-    border-color: white;
-}
-
 header.sticky .logo img{
-    width: 100px;
-    height: 100px;
+    width: 8vh;
+    height: 8vh;
 }
 header.sticky .logo img:hover{
-    width: 110px;
-    height: 110px;
+    width: 10vh;
+    height: 10vh;
 }
 header.sticky ::placeholder{
     color: white;
     transition: 0.6s;
-}
-.busca{
-    border-bottom-style: solid;
-    border-bottom-width: 1px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    transition: 0.6s;
-}
-.busca img{
-    transition: 0.6s;
-}
-.busca input{
-    font-family: Optima, Segoe, Segoe UI, Candara, Calibri, Arial, sans-serif;
-    transition: 0.6s;
-    font-size: inherit;
-    border: 0;
-    outline: 0;
-    padding: 4px;
 }
 ::placeholder {
     padding: 3px;
     transition: 0.6s;
     color: black;
 }
-.banner1 img{
-    width: 100%;
-    height: auto;
-}
 .titulo-cinza{
-    color:dimgrey;
-    margin-top: 60px;
+    color:white;
     text-align: center;
     font-weight: bold;
     font-size: 50px;
 }
 .guiasaude{
     text-align: center;
-    color: dimgray;
+    color: rgb(212, 212, 212);
     display: grid;
+    justify-content: center;
+    margin-top: 10vh;
 }
 .botao1{
     transition: 0.6s;
@@ -221,14 +185,34 @@ header.sticky ::placeholder{
     text-decoration: none;
     display: inline-block;
     font-size: 20px;
-    margin: 30px;
     cursor: pointer;
     background-color: #00BF63;
+    max-width: 50vh;
 }
 .botao1:hover{
     transition: 0.6s;
     background-color: #018344;
 }
+
+.botao1 a{
+    text-decoration: none;
+    color: white;
+}
+
+.botao2{
+        transition: 0.6s;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #00BF63;
+    max-width: 50vh;
+}
+
 .titulo-preto{
     color:dimgray;
     text-align: left;
@@ -238,6 +222,9 @@ header.sticky ::placeholder{
 }
 .posts{
     margin: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .quemsomos{
     height: auto;
@@ -257,11 +244,13 @@ header.sticky ::placeholder{
 .texto1-qs{
     font-size: 30px;
     align-items: center;
-    display: flex
+    display: flex;
+    color: white;
 }
 .texto2-qs{
     font-size: 25px;
     margin: 2%;
+    color: white;
 }
 .texto1-sel{
     position: relative;
@@ -270,6 +259,7 @@ header.sticky ::placeholder{
     text-align: center;
     margin: 0;
     padding-inline: 20px;
+    font-size: 1.2rem;
     color: #00BF63;
 }
 .texto3-sel{
@@ -281,11 +271,12 @@ header.sticky ::placeholder{
     overflow: visible;
     visibility: inherit;
     text-align: center;
-    border-right-color: black;
+    border-right-color: white;
     border-right-width: 1px;
     border-right-style: solid;
     margin: 0;
     padding-inline: 20px;
+    font-size: 1.2rem;  
     color: #00BF63;
 }
 .texto2-sel{
@@ -297,15 +288,16 @@ header.sticky ::placeholder{
     overflow: visible;
     visibility: inherit;
     text-align: center;
-    border-left-color: black;
+    border-left-color: white;
     border-left-width: 1px;
     border-left-style: solid;
-    border-right-color: black;
+    border-right-color: white;
     border-right-width: 1px;
     border-right-style: solid;
     margin: 0;
     padding-inline: 20px;
     color: #00BF63;
+    font-size: 1.2rem;
 }
 .escola-img img{
     margin-top: 3%;
@@ -314,6 +306,29 @@ header.sticky ::placeholder{
 .IMC{
     margin: 5%;
 }
+
+.section1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 2vh;
+}
+
+.alongamento{
+    border-style: solid;
+    border-color: #018344;
+    margin: 10vh;
+    padding: 10vh;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+video{
+    max-width: 70vw;
+    margin-top: 5vh;
+}
+
 .calculo-imc{
     font-size: 20px;
 }
@@ -498,7 +513,6 @@ header.sticky ::placeholder{
 }
 .imc-tabela img{
     margin-top: 2%;
-    max-width: 100%;
 }
 .imc-tabela{
     justify-content: center;
@@ -509,9 +523,10 @@ header.sticky ::placeholder{
     padding: 0;
     position: relative;
     display: table;
+    margin-bottom: 3vh;
 }
 .blog-artigos li {
-    background: white;
+    background: rgb(236, 236, 236);
     border-radius: 16px;
     backdrop-filter: blur(3.7px);
     -webkit-backdrop-filter: blur(3.7px);
@@ -524,7 +539,7 @@ header.sticky ::placeholder{
 }
 .assuntos-blog {
     border-radius: 500px;
-    -webkit-box-sizing: content-box;
+    object-fit: cover;
     box-sizing: content-box;
     width: 200px;
     height: 200px;
@@ -532,12 +547,10 @@ header.sticky ::placeholder{
 }
 
 .grid-1-3 {
-    width: 300px;
+    width: 60vh;
     float: left;
-    margin-left: 10px;
-    margin-right: 10px;
     list-style-type: none;
-    height: 550px;
+    height: 90vh;
 }
 .grid-1-3 a{
     font-size: 20px;
@@ -554,8 +567,8 @@ header.sticky ::placeholder{
     margin-bottom: 0;
 }
 .titulo-posts{
-    margin-top: 2%;
-    margin-bottom: 1%;
+    margin-top: 6vh;
+    margin-bottom: 1vh;
     color:white;
     text-align: left;
     font-weight: bold;
@@ -574,15 +587,16 @@ ul{
     border: 0 solid #00f;
     margin-top: 20px;
     background: #00BF63;
+    transition: 0.6s;
 }
 .botao-ler:hover{
     background: #018344;
+    transition: 0.6s;
 }
 .posts{
     margin-top: 2%;
     margin-left: 0;
     margin-right: 0;
-    background-color: #0a4b42;
     display: grid;
 }
 .titulo-link:hover{
