@@ -601,11 +601,22 @@ video{
     align-items: center;
 }
 
+.alongamento img{
+    width: 50%;
+    margin-top: 5vh;
+}
+
+.img{
+    justify-content: center;
+    display: flex;
+}
+
 iframe{
     width: 128vh;
     height: 72vh;
     margin-top: 5vh;
     border: 0;
+    max-width: 100%;
 }
 
 @media only screen and (max-width: 768px) {
@@ -670,5 +681,21 @@ iframe{
     }
     .titulo-pag-proj {
         width: 90vw;
+    }
+    .titulo-cinza {
+        font-size: 20px
+    }
+    iframe{
+        width: 32vh;
+        height: 18vh;
+        margin-top: 2vh;
+    }
+    .alongamento{
+        margin: 2vh;
+        padding: 3vh;
+    }
+    .alongamento img{
+        width: 100%;
+        margin-top: 2vh;
     }
 }
