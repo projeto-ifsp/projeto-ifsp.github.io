@@ -355,6 +355,7 @@ iframe{
 
 .imc-tabela img{
     margin-top: 2%;
+    max-width: 100%
 }
 .imc-tabela{
     justify-content: center;
